@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title></title>
+    <title>Register</title>
     <style type="text/tailwindcss">
         @layer utilities {
           .content-auto {
@@ -14,46 +14,41 @@
       </style>
 </head>
 <body>
-    <div class="flex gap-[10px]">
-        <nav class="w-[28%] h-[100vh] bg-[#F2EAE1]">
-            <div class="mx-auto p-5 text-center">
-                <h1 class="p-5 font-semibold text-[33px]">Admin Students</h1>
-                <label>
-                    <img class="mx-auto rounded-md" src="./img/logo.png" alt="logo" width="85" height="85">
-                    <input class="hidden" type="file">
-                </label>
-                <h2 class="p-5 font-semibold text-[28px]">Karthi Madesh</h2>
-                <p class=" text-[14] text-[#FEAF00]">Admin</p>
-            </div>
-            <ul class="flex flex-col gap-[8px] py-[10%] px-[35%]">
-                <li>
-                    <a class="flex items-center gap[8px] bg-yellow-400 p-2 rounded-md" href="">
-                        <img class="px-[5px] width=[17] height[17]"  src="./img/student.svg" alt="svg">
-                        <span class="text[20px] font-semibold">Students</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="render-teachers-list bg-slate-200 rounded-md w-full h-[65vh]">
-            <table class="w-[550px]">
-                <thead>
-                    <tr>
-                        <th class="text-left p-4">Name</th>
-                        <th class="text-left p-4">Email</th>
-                        <th class="text-left p-4">Phone</th>
-                        <th class="text-left p-4">Enrol phone</th>
-                        <th class="text-left p-4">Data Admisson</th>
-                    </tr>
-                </thead>
-            </table>
+  <div class="flex gap-[10px]">
+    <nav class="w-[28%] h-[100vh] bg-[#F2EAE1]">
+        <div class="mx-auto p-5 text-center">
+            <h1 class="p-5 font-semibold text-[33px]">Admin Students</h1>
+            <label>
+                <img class="mx-auto rounded-md" src="./img/logo.png" alt="logo" width="85" height="85">
+                <input class="hidden" type="file">
+            </label>
+            <h2 class="p-5 font-semibold text-[28px]">Karthi Madesh</h2>
+            <p class=" text-[14] text-[#FEAF00]">Admin</p>
+        </div>
+        <ul class="flex flex-col gap-[8px] py-[10%] px-[35%]">
+            <li>
+                <a class="flex items-center gap[8px] bg-yellow-400 p-2 rounded-md" href="">
+                    <img class="px-[5px] width=[17] height[17]"  src="./img/student.svg" alt="svg">
+                    <span class="text[20px] font-semibold">Students</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div>
+      <table class="w-full">
+        <thead>
+          <tr>
+            <th class="bg-white font-normal py-[17px] rounded-bl-[30px]">Full name</th>
+            <th class="bg-white font-normal py-[17px] rounded-bl-[30px]">Email</th>
+            <th class="bg-white font-normal py-[17px] rounded-bl-[30px]">Phone</th>
+            <th class="bg-white font-normal py-[17px] rounded-bl-[30px]">Enroll number</th>
+            <th class="bg-white font-normal py-[17px] rounded-bl-[30px]">Data admisson</th>
+          </tr>
+        </thead>
+      </table>    
     </div>
-    </div>
-
-
-
-
-
-
+</div>
+</div>
     <script src="./js/teachers.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
